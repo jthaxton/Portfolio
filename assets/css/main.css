@@ -451,6 +451,7 @@
 
 	.\-6u {
 		margin-left: 50%;
+
 	}
 
 	.\-5u {
@@ -2347,6 +2348,7 @@
 
 			.image.captioned img {
 				border-radius: 0;
+				max-height: 175px;
 			}
 
 			.image.captioned h3 {
