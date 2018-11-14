@@ -451,7 +451,6 @@
 
 	.\-6u {
 		margin-left: 50%;
-
 	}
 
 	.\-5u {
@@ -1994,6 +1993,13 @@
 			width: 50%;
 		}
 
+		.feature-grid .tech {
+			display: inline-block;
+			float: left;
+			margin-bottom: 3em;
+			width: 20%;
+		}
+
 			.feature-grid .feature .content {
 				width: 60%;
 			}
@@ -2009,6 +2015,12 @@
 
 			.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
 				float: right;
+				margin-right: 5%;
+				text-align: right;
+			}
+
+			.feature-grid .feature:nth-child(odd) .techcontent {
+				/* float: right; */
 				margin-right: 5%;
 				text-align: right;
 			}
@@ -2348,7 +2360,6 @@
 
 			.image.captioned img {
 				border-radius: 0;
-				max-height: 175px;
 			}
 
 			.image.captioned h3 {
@@ -3090,7 +3101,7 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 8em 0 2em 0;
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: center top;
