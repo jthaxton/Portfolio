@@ -512,6 +512,8 @@
 		}
 
 		.row.\31 50\25 {
+			display: flex;
+			justify-content: center;
 			margin: 0 0 -1px -3em;
 		}
 
@@ -2360,6 +2362,7 @@
 
 			.image.captioned img {
 				border-radius: 0;
+				height: 252px;
 			}
 
 			.image.captioned h3 {
